@@ -1,0 +1,46 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.bg-container {
+  height: 100vh;
+  padding:1em;
+}
+
+.headline h1 {
+  font-family:'bebasregular';
+
+}
+
+.headline h1 span {
+  color: #cecece;
+}
+
+.benefits {
+  margin-top: 2em;
+}
+
+.benefits ul {
+  padding:1em;
+}
+
+.main-button {
+  -webkit-box-shadow: 10px 10px 26px 5px rgba(206,206,206,1);
+  -moz-box-shadow: 10px 10px 26px 5px rgba(206,206,206,1);
+  box-shadow: 10px 10px 26px 5px rgba(206,206,206,1);
+  background: #0078ff;
+  border-radius: 10px;
+  color: #fff;
+  display:inline-block;
+  font-weight:bold;
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+  padding: 1em 2em;
+}
+
+.main-button:hover {
+  background: #0c6bd6;
+  color: #fff;
+  text-decoration: none;
+  transition: all .4s ease;
+}
